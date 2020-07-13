@@ -6,13 +6,17 @@ def main():
     s = Screen()
 
     size = randint(100, 200)
-    count = 0
-    s.mainloop()
 
-    while count < 4:
+    # count = 0
+
+    # while count < 4:
+    #     t.forward(size)
+    #     t.right(90)
+    #     count += 1
+
+    for count in range(4):
         t.forward(size)
         t.right(90)
-        count += 1
 
     s.mainloop()
 
