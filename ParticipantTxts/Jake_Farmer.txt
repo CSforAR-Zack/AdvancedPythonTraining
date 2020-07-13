@@ -1,0 +1,13 @@
+Name: Jake Farmer
+
+email: jfarmer@artsk12.org
+
+School/Organization: Arkansas Arts Academy High School
+
+Programming Languages: C/C++, Python, Java
+
+Most Experience: C++, Python
+
+Favorite Language: Python
+
+Programming Editor of Choice: Spyder, Visual Studio Community
