@@ -1,0 +1,13 @@
+Name: Garin Bean
+
+email: garin.bean@cedarvilleschools.org
+
+School/Organization: Cedarville School District
+
+Programming Languages: C, Java, Python
+
+Most Experience: Python
+
+Favorite Language: Python
+
+Programming Editor of Choice: PyCharm
