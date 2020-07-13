@@ -1,0 +1,14 @@
+
+Name: Jim Furniss
+
+email: jim.furniss@arkansas.gov
+
+School/Organization: Arch Ford ESC
+
+Programming Languages: Python, Java, CoffeeScript
+
+Most Experience: Python
+
+Favorite Language: Python
+
+Programming Editor of Choice: Visual Studio Code and Mu
