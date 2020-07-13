@@ -1,0 +1,13 @@
+Name: Keith Godlewski
+
+email: keith.godlewski@rps30.k12.ar.us
+
+School/Organization: Rogers New Tech HS
+
+Programming Languages: Java, C++, Python 
+
+Most Experience: JAVA, Basic :)
+
+Favorite Language: Java, but leaning towards Python
+
+Programming Editor of Choice: Eclispe, BlueJ, Sublime Text
