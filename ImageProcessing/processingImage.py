@@ -2,6 +2,7 @@ from PIL import Image
 from os import chdir, path, getcwd
 
 def main():
+    # Get the directory of this script.
     dirPath = path.dirname(path.realpath(__file__))
     chdir(dirPath)
 
