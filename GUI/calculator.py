@@ -27,7 +27,6 @@ def calculate(expression, labelResult):
     Update the label with the result on row 0.'''
 
     e = expression.get()
-    print(type(e))
     result = eval(e)
     labelResult['text'] = result
 
