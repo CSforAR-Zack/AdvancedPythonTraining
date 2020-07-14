@@ -14,7 +14,7 @@ def main():
     #     t.right(90)
     #     count += 1
 
-    for count in 'eiou':
+    for count in range(4):
         t.forward(size)
         t.right(90)
 
