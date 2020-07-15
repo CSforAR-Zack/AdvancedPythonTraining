@@ -14,7 +14,8 @@ def main():
 #        fileContents.write(text)
 
     with open('writing_file.txt', 'a') as fileContents:
-        fileContents.write('Hello')
+        for line in range(10):
+            fileContents.write(f'This is line {line + 1}!\n')
 
 if __name__ == '__main__':
     main()
