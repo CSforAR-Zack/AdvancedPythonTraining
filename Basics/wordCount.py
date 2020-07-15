@@ -6,7 +6,17 @@ def main():
     filename = fileSelector()
 
     fileContents = getFileContents(filename)
-    print(fileContents)  
+    
+    text = fileContents.lower()
+
+    omitChars = '`!@#$%^&*()_+~-=[]{};"\\:,./<>?'
+
+    for char in omitChars:
+        text = text.replace(char, ' ')
+
+    words = text.split()
+    numWords = len(words)
+    print(numWords)
 
 def fileSelector():
     ''' GUI file selector using Tk.'''
