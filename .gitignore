@@ -4,4 +4,4 @@ __pycache__/
 *$py.class
 
 # Other Files
-.vscode/
+.vscode/.ropeproject
