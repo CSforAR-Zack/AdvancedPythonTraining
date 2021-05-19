@@ -19,10 +19,10 @@ def main():
     #imageFun(im)
 
     # Alpha composite example
-    #im1 = Image.open('image1.png')
-    #im1 = im1.convert('RGBA')
-    #im2 = Image.open('image2.png')
-    #mergeThee(im1, im2)
+    im1 = Image.open('image1.png')
+    im1 = im1.convert('RGBA')
+    im2 = Image.open('image2.png')
+    mergeThee(im1, im2)
 
 def pngToJpg(image):
     ''' Convert a .png to a .jpg. '''
