@@ -1,5 +1,6 @@
-# Peforms Arithmetic between two numbers in different bases.
-# Peforms Conversion on single numbers
+# Peforms the following tasks:
+# - Arithmetic between two numbers.
+# - Conversion on single numbers
 
 from tkinter import Tk, Entry, Label, Button
 from tkinter.font import Font
@@ -44,7 +45,7 @@ def calculate(expression, labelResult):
 
 
 def splitUp(expression):
-    """ Break the expression into its parts and returns the list:
+    """ Break the expression into its parts and return the list:
     [Left Number, Right Number, Operator]
     """
 
@@ -68,13 +69,13 @@ def splitUp(expression):
 
 def rebuildExpression(parts):
     """ Converts all numbers to decimal and
-    returns the expression with decimal numbers.
+    return the expression with decimal numbers.
     """
 
     firstNumber = parts[0]
     secondNumber = parts[1]
     operator = parts[2]
-
+   
     if '0b' in firstNumber:
         firstNumber = int(firstNumber[2:], 2)
     elif '0o' in firstNumber:
@@ -94,6 +95,21 @@ def rebuildExpression(parts):
         secondNumber = int(secondNumber[2:], 16)
 
     return f'{firstNumber}{operator}{secondNumber}'
+
+    # tempList = []
+    # for part in parts:
+    #     if '0b' in part:
+    #         tempList.append(int(part[2:], 2))
+    #     elif '0o' in part:
+    #         tempList.append(int(part[2:], 8))
+    #     elif '0d' in part:
+    #         tempList.append(part[2:])
+    #     elif '0x' in part:
+    #         tempList.append(int(part[2:], 16))
+    #     else:
+    #         tempList.append(part)
+    
+    # return f'{tempList[0]}{tempList[2]}{tempList[1]}'
 
 
 def converter(number):
