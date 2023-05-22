@@ -4,7 +4,7 @@ from random import randint
 def main():
     t = Turtle()
     s = Screen()
-    s.tracer(0)
+    # s.tracer(0)
     s.bgcolor('black')
     t.color('cyan')
     t.speed(0)
@@ -27,7 +27,7 @@ def main():
             color = colors[1]
 
         t.dot(size,color)
-    s.update()
+    # s.update()
     s.mainloop()
 
 if __name__ == '__main__':

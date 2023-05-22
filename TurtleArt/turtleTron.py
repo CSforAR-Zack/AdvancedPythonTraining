@@ -4,8 +4,8 @@ def main():
     t = Turtle()
     s = Screen()
     s.colormode(255)
-    s.bgcolor((76, 237, 87))
-    t.color((122, 59, 71))
+    s.bgcolor("black")
+    t.color("cyan")
 
     s.listen()
     s.onkey(lambda : left(t), 'Left')

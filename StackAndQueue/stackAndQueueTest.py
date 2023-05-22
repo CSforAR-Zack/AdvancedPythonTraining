@@ -1,16 +1,26 @@
-from stackIt import Stack, Queue
+from PIL import Image, ImageFilter, ImageOps
+#from os import chdir, path
 
-s = Stack()
-q = Queue()
+def main():
+    #dirPath = path.dirname(path.realpath(__file__))
+    #chdir(dirPath)
+    im = Image.open('lotus.png')
+        
+    #pngToJpg(im, 'flower')
 
-s.push(7)
-q.add(4)
-s.push(2*3)
-s.push(1)
-q.add(7)
-s.push(q.remove())
-q.add(9)
-q.add(10)
+    imageFun(im)
 
-print(s.pop())
-print(q.remove())
+
+def imageFun(image):
+    """ A function of tons of fun. """
+    funImage = image.filter(ImageFilter.SHARPEN)
+    funImage = funImage.rotate(180)
+    #funImage = ImageOps.mirror(funImage)
+
+    funImage.save('fun.png')
+
+def pngToJpg(image, fileName):
+    image = image.convert('RGB')
+    image.save(f'{fileName}.jpg')
+
+main()

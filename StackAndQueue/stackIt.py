@@ -26,6 +26,9 @@ class Stack:
     def is_empty(self):
       return self.size() == 0
 
+    def __str__(self):
+      return str(self.stack)
+
 
 class Queue:
     ''' FIFO data structure.'''
@@ -53,4 +56,7 @@ class Queue:
 
     def is_empty(self):
       return self.size() == 0
+
+    def __str__(self):
+      return str(self.queue)
 
